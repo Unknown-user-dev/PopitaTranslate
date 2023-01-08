@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "name": "popitatranslate",
+  "version": "1.0.0",
+  "description": "A translator module by Unknown User",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unknown-user-dev/PopitaTranslate.git"
+  },
+  "keywords": [
+    "translator"
+  ],
+  "author": "Unknown-user-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unknown-user-dev/PopitaTranslate/issues"
+  },
+  "homepage": "https://github.com/Unknown-user-dev/PopitaTranslate#readme"
+}
