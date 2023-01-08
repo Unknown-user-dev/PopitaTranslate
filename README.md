@@ -119,14 +119,15 @@ Sindhi: sd
 ### How to use ?
 
 ```javascript
-const input = "Hello World !";
+const translate = require('popitatranslate')
 
-translate(`${input}`, (error, translatedText) =>{
+translate('fr', 'en', 'Bonjour, comment vas-tu ?', (error, translatedText) => {
     if (error) {
-        console.error(error);
+      console.error(error);
     } else {
-        console.log(translatedText);
+      console.log(translatedText);
     }
-});
+  });
+
 ```
 > Made with ❤ by @Unknown User
