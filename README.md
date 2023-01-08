@@ -1,7 +1,8 @@
 ## PopitaTranslate A Translator
 ### With JavaScript made by Unknown User
-![Github Stars](https://img.shields.io/github/stars/Unknown-user-dev/PopitaTranslate?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues-raw/Unknown-user-dev/PopitaTranslate?style=flat-square)
+![NPM](https://img.shields.io/npm/v/popitatranslate?style=for-the-badge)
+![Github Stars](https://img.shields.io/github/stars/Unknown-user-dev/PopitaTranslate?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/Unknown-user-dev/PopitaTranslate?style=for-the-badge)
 
 
 <p align="center">
