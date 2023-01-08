@@ -1,9 +1,7 @@
 const request = require('request');
 
-const language = 'fr'; 
-const srclanguage = 'en';
 
-function translate (text, callback) {
+module.exports = function translate(srclanguage, language, text, callback) {
     const url = `https://translate.google.com/translate_a/single?client=gtx&sl=${srclanguage}&tl=${language}&dt=t&q=${encodeURIComponent(text)}`;
 
     request(url, (error, response, body) => {
@@ -32,13 +30,3 @@ function translate (text, callback) {
         }
     });
 }
-
-const input = "Hello World !";
-
-translate(`${input}`, (error, translatedText) =>{
-    if (error) {
-        console.error(error);
-    } else {
-        console.log(translatedText);
-    }
-});

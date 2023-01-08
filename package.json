@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "popitatranslate": "^1.0.4",
     "request": "^2.88.2"
   },
   "name": "popitatranslate",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "A translator module by Unknown User",
   "main": "index.js",
   "scripts": {
@@ -12,6 +13,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Unknown-user-dev/PopitaTranslate.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "translator"
