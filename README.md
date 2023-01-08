@@ -27,7 +27,7 @@ The PopitaTranslate; ⓒ Unknown User
 ### Installation
 
 ```
-npm i PopitaTranslate
+npm i popitatranslate
 ```
 
 ### List of Language available 
